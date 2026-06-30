@@ -224,3 +224,39 @@ body {
     font-size: 16px;
     }
 }
+
+.sect {
+    max-width: 700px;
+            margin: 40px auto 20px;
+            padding: 30px 25px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 20px;
+            border: 1px solid rgba(74, 74, 255, 0.15);
+            backdrop-filter: blur(5px);
+            color: #c8d0ff;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.7;
+}
+
+h2 {
+    color: #8a8aff;
+        font-size: 24px;
+        margin-bottom: 15px;
+        text-align: center;
+        text-shadow: 0 0 30px rgba(74, 74, 255, 0.3);
+}
+
+footer {
+    margin-top: 20px;
+    color: #666;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contects {
+    display: flex;
+    margin-top: 20px; 
+    text-align: center; 
+    color: #888;
+}

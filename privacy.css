@@ -1,0 +1,129 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background-image: url(./1.jpg);
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #c8d0ff;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        .container {
+            max-width: 850px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.03);
+            backdrop-filter: blur(5px);
+            border-radius: 24px;
+            padding: 45px 40px;
+            border: 1px solid rgba(74, 74, 255, 0.12);
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 32px;
+            color: #8a8aff;
+            text-shadow: 0 0 40px rgba(74, 74, 255, 0.2);
+            margin-bottom: 8px;
+        }
+
+        .last-updated {
+            color: #6666aa;
+            font-size: 14px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            padding-bottom: 20px;
+        }
+
+        h2 {
+            font-size: 22px;
+            color: #a0a8ff;
+            margin: 30px 0 15px 0;
+            padding-left: 15px;
+            border-left: 4px solid #4a4aff;
+        }
+
+        p {
+            line-height: 1.8;
+            margin-bottom: 16px;
+            color: #b8bce0;
+        }
+
+        ul {
+            margin: 12px 0 20px 30px;
+            color: #b8bce0;
+            line-height: 1.9;
+        }
+
+        ul li::marker {
+            color: #4a4aff;
+        }
+
+        .highlight-box {
+            background: rgba(74, 74, 255, 0.07);
+            border-radius: 12px;
+            padding: 18px 22px;
+            margin: 20px 0;
+            border-left: 3px solid #4a4aff;
+        }
+
+        .highlight-box p {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #6a6aff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #9a9aff;
+            text-decoration: underline;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 35px;
+            padding: 12px 30px;
+            background: linear-gradient(135deg, #4a4aff, #8a4aff);
+            border-radius: 30px;
+            color: white !important;
+            font-weight: bold;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 20px rgba(74, 74, 255, 0.3);
+        }
+
+        .back-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 30px rgba(74, 74, 255, 0.5);
+            text-decoration: none;
+        }
+
+        .contact-email {
+            color: #8a8aff;
+            font-weight: bold;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px 18px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 18px;
+                padding-left: 10px;
+            }
+            ul {
+                margin-left: 18px;
+            }
+        }

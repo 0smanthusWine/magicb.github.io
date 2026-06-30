@@ -5,10 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magic Ball</title>
     <link rel="stylesheet" href="style.css">
-
+     <link rel="shortcut icon" href="./favicon.ico">
 </head>
 <body>
     <div class="container">
+        <h2 style="
+        color: #8a4aff;
+        font-size: 36px;
+        margin-top: 15px;
+        text-align: center;
+        text-shadow: 0 0 30px rgba(137, 74, 255, 0.3);
+    ">Магический Шар</h2>
         <div class="ball" id="ball">
             <div class="triangle">
                 <div class="prediction" id="prediction"></div>
@@ -18,7 +25,60 @@
             <input type="text" id="questionInput" placeholder="Задай вопрос" maxlength="70" />
             <button id="shakeBtn">Трясти</button>
         </div>
+        
+        <section class="sect" id="sect">
+    <h2>
+        🔮 Как работает магический шар предсказаний?
+    </h2>
+
+    <p style="margin-bottom: 15px;">
+        <strong>Магический шар</strong> — это инструмент для получения ответов на любые вопросы. 
+       Каждый раз, когда вы встряхиваете шар или задаёте вопрос, он выдает ответ на Ваш вопрос.
+    </p>
+
+    <p style="margin-bottom: 15px;">
+        <strong>Как пользоваться:</strong> просто введите свой вопрос в поле ввода (или задайте его мысленно), 
+        затем нажмите на шар, кнопку «Трясти» или клавишу Enter. Шар «встряхнётся» и на нем 
+        появится ответ. Чем чётче и конкретнее вопрос — тем точнее будет ответ.
+    </p>
+
+    <p style="margin-bottom: 15px;">
+        <strong>Надёжность предсказаний:</strong> этот шар работает на псевдослучайных числах, 
+        поэтому каждое предсказание — это лишь забавная интерпретация, а не руководство к действию. 
+        Однако многие пользователи отмечают, что ответы часто попадают в точку — 
+        ведь шар помогает <strong>услышать свой внутренний голос</strong> и взглянуть на ситуацию под другим углом.
+    </p>
+
+    <div style="
+        background: rgba(74, 74, 255, 0.08);
+        border-radius: 12px;
+        padding: 15px 20px;
+        margin-top: 15px;
+        border-left: 3px solid #4a4aff;
+    ">
+        <p style="margin: 0; font-style: italic; color: #aab0dd;">
+            💡 <strong>Совет:</strong> задавайте вопросы, на которые можно ответить «да» или «нет» — 
+            тогда ответы будут более осмысленными. Избегайте вопросов, на которые нужен развёрнутый ответ.
+        </p>
     </div>
-        <script src="script.js"></script>
+
+        <p style="margin-top: 15px; font-size: 14px; color: #7777aa; text-align: center; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 15px;">
+        ⚡ 28 вариантов ответов • Случайный выбор • Анимация тряски •
+        </p>
+    </section>
+        
+    <footer>
+        <div class="contacts">
+         Контакты: <a href="mailto:info@magicball.ru" class="contact-email">supportforyou2906@gmail.com</a></li>
+        </div>
+        <a href="./privacy.html" id="privacyLink">Политика конфиденциальности</a>
+         <p style="margin-top: 8px; font-size: 12px; color: #444466;">
+        © 2026 Магический шар предсказаний
+        </p>
+         <p>Сайт использует cookies для сбора статистики</p>
+    </footer>
+    <script src="script.js"></script>
+        
+    </div>
 </body>
 </html>
